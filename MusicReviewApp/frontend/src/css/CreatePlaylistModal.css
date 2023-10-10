@@ -1,0 +1,35 @@
+.c-modalContainer {
+    width: 70%;
+    height: 70%;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    z-index: 1000;
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  transform: translate(-15%, -25%);
+  
+    }
+    .c-titleCloseBtn {
+      display: flex;
+      justify-content: flex-end;
+    }
+    
+    .c-titleCloseBtn button {
+      background-color: transparent;
+      border: none;
+      font-size: 25px;
+      cursor: pointer;
+    }
+  
+  .c-title {
+    text-align: center;
+    justify-content: start;
+    position: sticky;
+    top: 0px;
+    margin-top: -5%;
+  }

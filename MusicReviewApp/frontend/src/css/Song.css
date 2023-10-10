@@ -1,0 +1,165 @@
+.song-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5%;
+}
+.song-card{
+  width: 250px;
+}
+.song-card-title {
+  font-size: 1rem;
+  background-color: #ccc;
+  padding:5px;
+  font-weight: bold;
+}
+.song-cover {
+  width: 25%;
+}
+
+.song-info {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0 0 20px;
+}
+
+.song-name {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.artist-name {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+.album-name {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+.song-rating {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+/* Added styles for header spacing and hover effect */
+.song-info-h2 {
+  margin-bottom: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.song-info-h2:hover {
+  color: gray;
+}
+
+.song-divider {
+  margin-top: 2.5%;
+  margin-bottom: 20px;
+}
+
+
+/* Rating css stuff */
+.my-span{
+  border: #333 2px solid;
+  border-radius: 4px;
+  height: 30px;
+  width: 30px;
+  padding: 3px;
+  background-color:#1b76af;
+  color:white;
+  
+}
+.rate-song {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2.5%;
+}
+
+.rate {
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 0.5em;
+  margin: 0.5em;
+  background-color: #1b76af;
+}
+
+.rate:hover {
+  background-color: #25658d;
+  color: #ffffff;
+}
+
+.review-s-form-cont {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  margin-top: 2.5%;
+  width: 60%;
+  /* width: 50%;
+  margin-left: 25%; */
+}
+
+.review-form-s {
+  width: 100%;
+}
+
+.div-review-txt-cont {
+  width: 100%;
+}
+
+.form-control {
+  height: 20vh;
+  resize: none;
+  width: 100%;
+}
+
+.btn-submit {
+  margin-top: 1rem;
+  width: 6rem;
+  height: 2.5rem;
+  align-self: flex-end;
+}
+.add-playlist {
+  display: inline;
+  width: auto;
+  height: auto;
+}
+
+.add-playlist .show-plist {
+  display: inline;
+  width: auto;
+  height: auto;
+}
+
+.add-song {
+  margin: 10px;
+} 
+
+.my-span{
+  border: #333 2px solid;
+  border-radius: 6px;
+  height: 30px;
+  width: 30px;
+  padding: 3px;
+  background-color:#1b76af;
+  color:white;
+  
+}
+
+  .plus-icon {
+    font-size: 16px;
+    border: solid 1px black;
+  }
+
+  .plus-icon:hover {
+    cursor: pointer;
+  }

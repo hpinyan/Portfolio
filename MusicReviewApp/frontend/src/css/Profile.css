@@ -1,0 +1,22 @@
+.pic-border {
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5%;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.top-part-cont {
+    margin-left: 5%;
+    margin-right: 5%;
+}

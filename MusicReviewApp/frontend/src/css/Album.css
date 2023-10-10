@@ -1,0 +1,132 @@
+.album-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 15%;
+  margin:20px;
+  padding:10px;
+  width: 100%;
+  }
+  .back-button{
+    position: absolute;
+    left:10px;
+    top:80px;
+  }
+  .album-card{
+    width:250px;
+  }
+  .album-cover {
+    width: 25%;
+  }
+  
+  .album-info {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 0 20px;
+  }
+  
+  .album-card-title {
+    font-size: 1rem;
+    background-color: #ccc;
+    padding:5px;
+    font-weight: bold;
+  }
+  
+  .album-artist {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  
+  .album-rating {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  
+  .album-tracklist {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  
+  /* Added styles for header spacing and hover effect */
+  .album-info-h2 {
+    margin-bottom: 10px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .album-info-h2:hover {
+    color: gray;
+  }
+  
+  .album-divider {
+    margin-top: 2.5%;
+    margin-bottom: 10px;
+  }
+  
+
+  /* Rating css stuff */
+  .my-span{
+    border: #333 2px solid;
+    border-radius: 4px;
+    height: 30px;
+    width: 30px;
+    padding: 3px;
+    background-color:#1b76af;
+    color:white;
+    
+  }
+  
+  .rate-album {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2.5%;
+  }
+  
+  .rate {
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 0.5em;
+    margin: 0.5em;
+    background-color: #1b76af;
+  }
+  
+  .rate:hover {
+    background-color: #25658d;
+    color: #ffffff;
+  }
+
+
+
+  .review-form-alb {
+    max-width: 500px;
+    justify-content: center;
+  }
+
+  .div-review-txt-cont {
+    max-width: 500px;
+  }
+  
+  .form-control {
+    height: 20vh;
+    resize: none;
+    width: 100%;
+  }
+  
+  .btn-submit {
+    margin-top: 1rem;
+    width: 6rem;
+    height: 2.5rem;
+    align-self: center;
+  }
+
+  .num-rate {
+    width: 100%;
+   
+  }

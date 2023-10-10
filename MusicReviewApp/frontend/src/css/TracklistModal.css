@@ -1,0 +1,82 @@
+.t-modalContainer {
+  width: 70%;
+  height: 80%;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  z-index: 1000;
+position: fixed;
+top: 25%;
+left: 25%;
+transform: translate(-15%, -25%);
+
+  }
+  .tl-list-group{
+    max-height:22% !important;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+  .t-card{
+    width:100%;
+    height:80%;
+  }
+ 
+  .t-list-el-cont {
+    width: 100%;
+    height: 100%;
+  }
+  .t-titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .t-titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .tracklist-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+
+.t-ta-title {
+  text-align: center;
+  justify-content: start;
+  position: sticky;
+  top: 0px;
+  margin-top: -5%;
+}
+
+.t-pic-container {
+    flex-basis: 30%;
+    margin-right: 2.5%;
+    /* margin-top: -10%; */
+  }
+  .t-info-container {
+    flex-basis: 50%;
+    text-align: left;
+  }
+
+  .tlist-cont {
+    text-align: left;
+    font-size: .85rem !important;
+    height:  calc(100vh*.8  );
+    /* overflow-y: scroll;
+    overflow-x: auto;
+    max-height: 45%; */
+  }
+
+  
+ 
+
+    .t-info-container {
+        flex-basis: 100%;
+      }

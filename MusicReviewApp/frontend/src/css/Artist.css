@@ -1,0 +1,176 @@
+.artist-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5%;
+  padding:10px;
+}
+.back-button{
+  position: absolute;
+  left:10px;
+  top:80px;
+}
+.artist-cover {
+  width: 25%;
+}
+
+.artist-info {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0 0 20px;
+}
+
+.artist-name {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.top-albums {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+.artist-rating {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+.top-songs {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+/* Added styles for header spacing and hover effect */
+.artist-info-h2 {
+  margin-bottom: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.artist-info-h2:hover {
+  color: gray;
+}
+
+.artist-divider {
+  margin-top: 2.5%;
+  margin-bottom: 20px;
+}
+
+
+/* Rating css stuff */
+.my-span{
+  border: #333 2px solid;
+  border-radius: 4px;
+  height: 30px;
+  width: 30px;
+  padding: 3px;
+  background-color:#1b76af;
+  color:white;
+  
+}
+.rate-artist {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2.5%;
+}
+
+.rate {
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 0.5em;
+  margin: 0.5em;
+  background-color: #1b76af;
+}
+
+.rate:hover {
+  background-color: #25658d;
+  color: #ffffff;
+}
+
+.review-art-form-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.5%;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.review-form-art {
+  width: 100%;
+}
+
+.div-review-txt-cont {
+  width: 100%;
+}
+
+.form-control {
+  height: 20vh;
+  resize: none;
+  width: 100%;
+}
+
+.btn-submit {
+  margin-top: 1rem;
+  width: 6rem;
+  height: 2.5rem;
+  align-self: center;
+}
+
+.num-rate {
+  width: 100%;
+  
+}
+
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+/* Borrowed from ProfileSongs.css*/
+.profile-artist-cont {
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+ 
+}
+.artist-card{
+  width:250px;
+ 
+}
+.artist-card-body{
+  padding: 0 !important;
+}
+.artist-card-title{
+  background-color: #ccc;
+  padding:5px;
+}
+.pic-border-song {
+  border: 2px solid black;
+  /*width: 300px;
+  height: 300px;*/
+  
+ 
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.5%;
+}
+
+.song-pic {
+ 
+  object-fit: cover;
+}

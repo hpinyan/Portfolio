@@ -1,0 +1,71 @@
+.search-albums-cont {
+  margin-top: 2.5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:10px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: repeat(4,);
+    /* background-color: #2196F3; */
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    justify-content: center;
+    padding: 20px;
+    /* font-size: 20px; */
+    text-align: center;
+  }
+  .sal-card{
+    width:250px !important; /*  this overides the bootstrap width*/
+    height:260px !important; 
+    background-color: rgb(143, 140, 140);
+    margin: 10px;
+  }
+  .sal-card-image {
+    width: 50%;
+    height: 124px;
+    flex-shrink: 0;
+  }
+  
+  .sal-card-content {
+    flex-grow: 1;
+  }
+  
+  .sal-card-title {
+    font-size: 1rem !important;
+    font-weight: bold;;
+  }
+  
+  .sal-card-text {
+    font-size: .85rem !important;
+    margin-top:-5px;
+    color:white;
+    background-color: rgb(143, 140, 140) !important;
+  }
+  .sal-card-text2{
+    font-size: .75rem !important;
+    font-weight: normal;
+    margin-top:-2px;
+    color:white;
+    background-color: rgb(143, 140, 140) !important;
+    line-height: 1.2rem !important;
+  }
+  
+  .mygenre{
+    /* height:150px !important; */
+    max-height:72px !important;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+    color:white;
+    line-height: .5rem !important;
+    border:none !important;
+  }
+  
+ 

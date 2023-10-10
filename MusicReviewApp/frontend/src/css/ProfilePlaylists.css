@@ -1,0 +1,66 @@
+.profile-playlists-cont {
+  margin-top: 2.5%;
+  overflow-y: scroll;
+}
+
+.title {
+  text-emphasis: bold;
+  font-size: 2.5em;
+}
+
+.title:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.pro-card{
+  width:250px;
+ 
+}
+.pro-card-body{
+  padding: 0 !important;
+}
+.pro-card-title{
+  background-color: #ccc;
+  padding:5px;
+  font-weight: bold;
+  min-height: 34px;
+}
+.pro-pic-border-song {
+  border: 2px solid black;
+  /*width: 300px;
+  height: 300px;*/
+  
+ 
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.5%;
+}
+
+.pro-song-pic {
+ 
+  object-fit: cover;
+}
+
+.edit-plist {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.edit-plist-s {
+  width: auto;
+  height: auto;
+}
+
+.plist-button {
+  border: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+  font-size: 1.5em;
+}
+
+.plist-button:hover {
+  cursor: pointer;  
+}

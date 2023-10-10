@@ -1,0 +1,79 @@
+.button-group-s {
+    display: flex;
+    border: 1px solid black ;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.menu-container-s {
+    margin-top: 2.5%;
+    margin:0 auto;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+}
+
+.menu-button-s {
+    background-color: #949494;
+    color: white;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 0px;
+    width: 100%;
+}
+
+.menu-button-left-s {
+    background-color: #949494;
+    color: white;
+    font-size: 16px;
+    border: 2px solid black;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    width: 100%;
+}
+
+.menu-button-right-s {
+    background-color: #949494;
+    color: white;
+    font-size: 16px;
+    border: 2px solid black;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    width: 100%;
+}
+
+.artist-click-s {
+    background-color: #1b76af;
+    color: white;
+    font-size: 16px;
+    border: 2px solid black;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    width: 100%;
+}
+
+.middle-click-s {
+    background-color: #1b76af;
+    color: white;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 0px;
+    width: 100%;
+}
+
+.songs-click-s {
+    background-color: #1b76af;
+    color: white;
+    font-size: 16px;
+    border: 2px solid black;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    width: 100%;
+}

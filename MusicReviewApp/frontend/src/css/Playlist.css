@@ -1,0 +1,61 @@
+.plist-title {
+  text-emphasis: bold;
+  font-size: 2.5em;
+}
+
+.song-card{
+  width: 250px;
+}
+
+.song-card-title {
+  font-size: 1rem;
+  background-color: #ccc;
+  padding:5px;
+  font-weight: bold;
+}
+
+.delete {
+  background-color: #b61010;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  font-size: 1em;
+}
+
+.pro-card{
+  width:250px;
+ 
+}
+.pro-card-body{
+  padding: 0 !important;
+}
+.pro-card-title{
+  background-color: #ccc;
+  padding:5px;
+  font-weight: bold;
+  min-height: 34px;
+}
+.pro-pic-border-song {
+  border: 2px solid black;
+  
+ 
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.5%;
+}
+
+.pro-song-pic {
+ 
+  object-fit: cover;
+}
+
+.delete:hover {
+  background-color: #073b5b;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  cursor: pointer;
+}
